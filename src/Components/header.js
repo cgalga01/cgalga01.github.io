@@ -1,5 +1,6 @@
 // Code for top menu bar
 import '../Styles/Header.css';
+import {Link} from "react-router-dom"
  
 
 function Header() {
@@ -7,14 +8,14 @@ function Header() {
         <header class="header">
           {/* This header is displayed on every page with a nav bar */}
           <nav class="nav-items">
-            <a href= "/">
+            <Link to="/">
               <button>Home</button>
-            </a>
+            </Link>
 
           <div class ="dropdown"> {/* Dropdown menu item with links to fantasy football pages */}
             <button class = "dropdown">Fantasy</button>
             <div class="dropdown-content">
-              <a href="/PPR_ALL">All PPR Rankings</a>
+              <Link to="/PPR_ALL">All PPR Rankings</Link>
               <a href="/QB_Rankings">QB Rankings</a>
               <a href="/RB_Rankings">RB Ranking</a>
               <a href='/WR_Rankings'>WR Rankings</a>
