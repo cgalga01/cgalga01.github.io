@@ -16,17 +16,17 @@ function Header() {
             <button class = "dropdown">Fantasy</button>
             <div class="dropdown-content">
               <Link to="/PPR_ALL">All PPR Rankings</Link>
-              <a href="/QB_Rankings">QB Rankings</a>
-              <a href="/RB_Rankings">RB Ranking</a>
-              <a href='/WR_Rankings'>WR Rankings</a>
-              <a href='/TE_Rankings'>TE Rankings</a>
+              <Link to="/QB_Rankings">QB Rankings</Link>
+              <Link to="/RB_Rankings">RB Ranking</Link>
+              <Link to='/WR_Rankings'>WR Rankings</Link>
+              <Link to='/TE_Rankings'>TE Rankings</Link>
             </div>
           </div>
           
           {/* This button is for my projects */}
-          <a href='/Projects'> 
+          < Link to='/Projects'> 
           <button>Projects</button>
-          </a>
+          </Link>
           {/* This button to my about page */}
           <Link to='/About'>
             <button>About</button>

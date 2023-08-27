@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles/Projects.css';
-
+import { Link } from 'react-router-dom';
 //Array of info on my projects
 const articles = [
   {
@@ -30,9 +30,9 @@ function Projects() {
     <div className="projects-container">
       {articles.map((article, index) => (
         <div key={index} className="article">
-            <a href={article.link}>
+            <Link to={article.link}>
               {article.title}
-            </a>
+            </Link>
           <h5>{article.date}</h5>
           <p>{article.description}</p>
         </div>

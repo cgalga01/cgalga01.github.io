@@ -1,6 +1,7 @@
 import '../Styles/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,8 +12,8 @@ function Footer () {
           <div class="bottom-links"> {/* bottom links to the different pages*/}
             <div class="links">
               <span>More Info</span>
-              <a href="/">Home</a>
-              <a href="/about">About</a>
+              <Link to="/">Home</Link>
+              <Link to="/about">About</Link>
             </div>
 
             <span>Social Links: </span>
