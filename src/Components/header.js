@@ -28,9 +28,9 @@ function Header() {
           <button>Projects</button>
           </a>
           {/* This button to my about page */}
-          <a href='/About'>
+          <Link to='/About'>
             <button>About</button>
-            </a>
+            </Link>
           </nav>
 
 
