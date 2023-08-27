@@ -1,0 +1,77 @@
+/* CSS for footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#202121;
+    padding: 40px 80px;
+    color: white;
+  }
+  
+  
+  
+  .bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .bottom-links .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .bottom-links .links span {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  .bottom-links .links a {
+    text-decoration: none;
+    color: #a1a1a1;
+    padding: 10px 20px;
+  }
+
+  .bottom-links a:hover {
+    text-decoration-line: underline;
+
+
+  }
+
+  /* CSS for the social media icons */
+  .social-media-icons {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    color: inherit;
+  }
+  .social-media-icons a{
+    color: inherit;
+    padding: 10px;
+    font-size: 30px;
+
+  }
+
+/* Styles for the LinkedIn icon  (AI generated) */
+.social-media-icons .fa-linkedin {
+  color: #0077B5; /* LinkedIn  color */
+}
+  
+  /* Styles for the GitHub icon (AI generated) */
+.social-media-icons .fa-github {
+  color: #333; /* GitHub icon color */
+}
+
+/* Styles for the Instagram icon (AI generated) */
+.social-media-icons .fa-instagram {
+  color: #E4405F; /* Instagram icon color */
+}
+

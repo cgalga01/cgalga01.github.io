@@ -1,0 +1,19 @@
+.Hockey-xG {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.all-article {
+    text-align: justify;
+    line-height: 1.6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* CSS for images */
+.all-article img {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    
+}

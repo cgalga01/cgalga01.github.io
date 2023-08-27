@@ -1,0 +1,111 @@
+.filtered {
+    width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+  }
+  
+  .input {
+    width: 10%;
+  }
+  
+  
+  .table {
+      text-align: center;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+  
+  }
+  
+  .table td{
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+  .head{
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even){
+      background-color: #f2f2f2;
+      }
+  
+  
+  .tier1 {
+    background-color: #ceb736;
+  }
+      
+  .tier2 {
+    background-color: #5c5666;
+  }
+  
+  .tier3 {
+    background-color: #426b5b;
+  }
+      
+  .tier4 {
+    background-color: #2e4d6a;
+  }
+  
+  .tier5 {
+    background-color: #f6220a;
+  }
+      
+  .tier6 {
+    background-color: #75b441;
+  }
+  
+  .tier7 {
+    background-color: #7d3c7f;
+  }
+      
+  .tier8 {
+    background-color: #32dd1f;
+  }
+  
+  .tier9 {
+    background-color: #2cad23;
+  }
+      
+  .tier10 {
+    background-color: #7afece;
+  }
+  
+  .tier11 {
+    background-color: #4c8a57;
+  }
+      
+  .tier12 {
+    background-color: #e158dc;
+  }
+  
+  .tier13 {
+    background-color: #424d65;
+  }
+      
+  .tier14 {
+    background-color: #0321b9;
+  }
+  
+  .tier15 {
+    background-color: #d588b6;
+  }
+      
+  .tier16 {
+    background-color: #cbe208;
+  }
+  
+  .tier17 {
+    background-color: #2965f8;
+  }
+  
+  .tier18 {
+    background-color: #06c492;
+  }
+  
+  .tier19 {
+    background-color: #ea0496;
+  }
+  
