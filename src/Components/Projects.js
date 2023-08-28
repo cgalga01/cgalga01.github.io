@@ -6,13 +6,13 @@ const articles = [
   {
     title: 'Fantasy Baseball Player Value Calculator',
     description: 'Unlike regular points fantasy leagues, category fantasy baseball leagues, it is difficult to compare players. So using python and statistics, I coded a player value calculator that boils down a players contributions to one number.',
-    date: '8/25/23',
+    date: new Date('2023-08-25'),
     link: '/Projects/BBPlayerValues'
   },
   {
     title: 'Hockey Expected Goals Model',
     description: 'My first hockey expected goals model made in R using logisitic regression',
-    date: '7/23/23',
+    date: new Date('2023-08-27'),
     link: '/Projects/XGHockey'
   },
   {
@@ -22,6 +22,11 @@ const articles = [
   },
 
 ];
+
+// Sort the articles by date in descending order
+articles.sort((a, b) => b.date - a.date);
+
+
 
 //Page listing out my projects
 
@@ -33,7 +38,7 @@ function Projects() {
             <Link to={article.link}>
               {article.title}
             </Link>
-          <h5>{article.date}</h5>
+            {article.date && <h5>{article.date.toLocaleDateString()}</h5>}
           <p>{article.description}</p>
         </div>
       ))}
