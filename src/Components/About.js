@@ -16,7 +16,7 @@ function About() {
         <h1 className="name">Christopher Galgano</h1>
         <p className="subtitle">Villanova '26 Computer Science</p>
         <p className="description">
-          Welcome to my first website! 
+          Welcome to my first website! All the code for this website is on my GitHub linked below.
           This is my site to explore web development and publish my sports analytics
           work. I am a life long New York sports fan and fantasy sports enjoyer. 
           In my computer science journey I have become proficient in Java, Python, 
