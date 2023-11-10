@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.89b1913b.css",
-    "main.js": "/static/js/main.79bc1c31.js",
+    "main.js": "/static/js/main.a35d1e75.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/IMG_2103.JPG": "/static/media/IMG_2103.63c08226a24a80d0826a.JPG",
     "static/media/HitterValues.png": "/static/media/HitterValues.83b1620b76ee870c1cb1.png",
@@ -20,11 +20,11 @@
     "static/media/QB_ranking.csv": "/static/media/QB_ranking.fec93eab244bdb18557d.csv",
     "index.html": "/index.html",
     "main.89b1913b.css.map": "/static/css/main.89b1913b.css.map",
-    "main.79bc1c31.js.map": "/static/js/main.79bc1c31.js.map",
+    "main.a35d1e75.js.map": "/static/js/main.a35d1e75.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89b1913b.css",
-    "static/js/main.79bc1c31.js"
+    "static/js/main.a35d1e75.js"
   ]
 }
