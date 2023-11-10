@@ -10,7 +10,7 @@ import AUC from '../../Files/Projects/HockeyXG/AUC.png'
 function XGHockey() {
     return (
         <div className='Hockey-xG'>
-            <h1>The Inaugural Hockey xG Model</h1>
+            <h1>First Hockey xG Model</h1>
 
             <div className='all-article'>
                 <p>

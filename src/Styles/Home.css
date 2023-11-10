@@ -1,79 +1,88 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
 /* CSS for Home Page section */
 
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
 .intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 520px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://images.pexels.com/photos/209956/pexels-photo-209956.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .intro h1 {
-    font-family: 'Rockids';
-    font-size: 60px;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0;
-  }
-  
-  .intro p {
-    font-family: 'Georgia';
-    font-size: 20px;
-    color: #d1d1d1;
-    text-transform: uppercase;
-    margin: 20px 0;
-  }
-  
-  
-  .outline {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
 
-  }
-  
-  .outline .work {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 40px;
-  }
-  
-  .outline .work i {
-    width: fit-content;
-    font-size: 50px;
-    border-radius: 50%;
-    padding: 12px;
-    border: 2px solid #333333;
+.intro h1 {
+  font-family: 'Rockids';
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
 
-  }
-  
-  .outline .work .work-heading {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin: 10px 0;
-    color:#333333;
-    font-family:Source Sans Pro;
+.intro p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #ecf0f1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
 
-    font-weight: bold;
+.outline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
 
-  }
-  
-  .outline .work .work-text {
-    font-size: 16px;
-    margin: 10px 0;
-    color: #333333;
-    font-family:Source Sans Pro;
+.outline .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
 
+.outline .work i {
+  width: fit-content;
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 12px;
+  border: 2px solid #ecf0f1;
+}
 
+.outline .work .work-heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px 0;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
 
-  }
+.outline .work .work-text {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #ecf0f1;
+  font-family: 'Source Sans Pro', sans-serif;
+}

@@ -2,7 +2,7 @@
 import '../Styles/Home.css'
 
 //Home page
-
+ 
 function Home () {
     return(
         <main>

@@ -1,57 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Georgia&display=swap');
+
 /* CSS for my about page */
-  
-  /* CSS for header */
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    background-color:#202121;
-  }
-  
+
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #202121;
+}
+
 /* for menu bar */
-  .nav-items {
-    display:flex;
-    justify-content:right;
-    align-items:right;
-    margin-right: 20px;
-    position: relative;
+.nav-items {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 20px;
+  position: relative;
+  height: 50px;
+}
 
-  }
+/* Styling for menu items */
+.nav-items a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 12px 16px;
+  position: relative;
+}
 
-  /*for buttons  */
-  .nav-items button {
-    text-decoration: none;
-    padding: 35px 20px;
-    border: 0cm;
-    background-color:#202121;
-    color:#f5f5f5;
-    border: none;
-    font-family:Georgia, 'Times New Roman', Times, serif ;
-    
-    
-  
-  }
-  /* hover effects */
-  .nav-items button:hover{
-    background-color: #585858;
-    text-decoration-line:underline;
-  }
+/* hover effects */
+.nav-items a:hover {
+  background-color: #585858;
+  text-decoration-line: underline;
+}
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: inline-flex;
 }
 
 /* Dropdown Content */
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #202121;
+  background-color: #333; /* Updated background color */
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  top: 100%; /* Set the top property to ensure the dropdown is below the button */
+  left: -40%; /* Align the dropdown with the left edge of the button */
+  border-radius: 8px; /* Add border-radius for a rounded appearance */
 }
 
 /* Links inside the dropdown */
@@ -60,6 +60,7 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  transition: background-color 0.3s; /* Smooth transition for background color */
 }
 
 /* Change color of dropdown links on hover */
@@ -69,7 +70,11 @@
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
