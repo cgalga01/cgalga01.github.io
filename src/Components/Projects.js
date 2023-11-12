@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 //Array of info on my projects
 const articles = [
   {
+    title: 'Fantasy Baseball Archetypes',
+    description: 'I used k-means clustering to analyze mlb players with similar styles',
+    date: new Date('2023-11-10'),
+    link: '/Projects/BBArchetypes'
+  },
+  {
     title: 'Fantasy Baseball Player Value Calculator',
     description: 'Unlike regular points fantasy leagues, category fantasy baseball leagues, it is difficult to compare players. So using python and statistics, I coded a player value calculator that boils down a players contributions to one number.',
     date: new Date('2023-08-25'),

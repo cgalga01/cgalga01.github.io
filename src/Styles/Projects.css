@@ -3,9 +3,9 @@
     flex-direction: column;
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
-    height: 75vh; /* 75% of the viewport height */
+    height: auto; /* 75% of the viewport height */
     gap: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
   }
   
   .article {
