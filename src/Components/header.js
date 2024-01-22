@@ -18,7 +18,7 @@ function Header() {
             <Link to="/QB_Rankings">QB Rankings</Link>
             <Link to="/RB_Rankings">RB Rankings</Link>
             <Link to='/WR_Rankings'>WR Rankings</Link>
-            <Link to='/TE_Rankings'>TE Rankings</Link>
+            <Link to='/TE_Rankings'>TE Rankings</Link> 
           </div>
         </div>
         </Link>
@@ -28,6 +28,10 @@ function Header() {
         <Link to='/Projects'>
           Projects
         </Link>
+
+        <a href='https://public.tableau.com/app/profile/christopher.galgano/vizzes' target= "_blank">
+          Tableau
+        </a>
 
         {/* This link is for my about page */}
         <Link to='/About'>
