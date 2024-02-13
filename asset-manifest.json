@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ae903d8.css",
-    "main.js": "/static/js/main.92238348.js",
+    "main.css": "/static/css/main.8313ef1c.css",
+    "main.js": "/static/js/main.4027e94a.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/IMG_2103.JPG": "/static/media/IMG_2103.63c08226a24a80d0826a.JPG",
     "static/media/HitterValues.png": "/static/media/HitterValues.83b1620b76ee870c1cb1.png",
     "static/media/Cluster1.png": "/static/media/Cluster1.f943223f7c1eb4d68ad0.png",
     "static/media/Z-Scores.png": "/static/media/Z-Scores.57cbccd0d96c06d295e3.png",
     "static/media/ReplacementLevelData.png": "/static/media/ReplacementLevelData.f3d1da4f323d4b49dce1.png",
+    "static/media/st_features.png": "/static/media/st_features.c01e73e062d41fed31f1.png",
+    "static/media/og_features.png": "/static/media/og_features.3381fbba5e9a502dfe93.png",
     "static/media/GraphOfxG.png": "/static/media/GraphOfxG.13541214fd25211fd8ca.png",
     "static/media/PlayerxG.png": "/static/media/PlayerxG.e9c66ec4fffa6fe607a3.png",
     "static/media/DollarAmounts.png": "/static/media/DollarAmounts.3bf1769a5ae788a90282.png",
     "static/media/Z-ScoreAboveReplacement.png": "/static/media/Z-ScoreAboveReplacement.6c227ff0c81a44f07a99.png",
     "static/media/AUC.png": "/static/media/AUC.014e8ffb38a77b1f78b9.png",
+    "static/media/st_2022_xg.png": "/static/media/st_2022_xg.00a198e405f954d5de44.png",
+    "static/media/st_leaders.png": "/static/media/st_leaders.3d25047f39349eb9d8d2.png",
+    "static/media/2022_xg.png": "/static/media/2022_xg.58f09114058d0ddddde5.png",
     "static/media/elbow.png": "/static/media/elbow.53c2c28928c59d9c06be.png",
     "static/media/averages.png": "/static/media/averages.bcfcabffa126d6a7d640.png",
     "static/media/group_reps.png": "/static/media/group_reps.e8b36de6d22cf0d55ac2.png",
@@ -23,12 +28,12 @@
     "static/media/TE_ranking.csv": "/static/media/TE_ranking.c9b9dbdd8bd3426a21fd.csv",
     "static/media/QB_ranking.csv": "/static/media/QB_ranking.fec93eab244bdb18557d.csv",
     "index.html": "/index.html",
-    "main.5ae903d8.css.map": "/static/css/main.5ae903d8.css.map",
-    "main.92238348.js.map": "/static/js/main.92238348.js.map",
+    "main.8313ef1c.css.map": "/static/css/main.8313ef1c.css.map",
+    "main.4027e94a.js.map": "/static/js/main.4027e94a.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ae903d8.css",
-    "static/js/main.92238348.js"
+    "static/css/main.8313ef1c.css",
+    "static/js/main.4027e94a.js"
   ]
 }
