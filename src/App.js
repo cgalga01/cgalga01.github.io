@@ -14,7 +14,8 @@ import Projects from './Components/Projects';
 import BBPlayerValues from './Components/Projects/BBPlayerValues';
 import XGHockey from './Components/Projects/XGHockey';
 import BBArchetypes from './Components/Projects/BBArchetypes';
-
+import XGHockeyST from './Components/Projects/XGHOCKEYST';
+import BB_Rankings from './Components/BBRankings/BB_Rankings';
 
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
           <Route path='/Projects/BBPlayerValues' element = {<BBPlayerValues/>}/>
           <Route path='/Projects/XGHockey' element = {<XGHockey/>}/>
           <Route path='/Projects/BBArchetypes' element = {<BBArchetypes/>}/>
+          <Route path='/Projects/XGHockeyST' element = {<XGHockeyST/>}/>
+          <Route path='/BBRankings/BB_Rankings' element= {<BB_Rankings/>}/>
         </Routes>
         
         {/* Footer component which includes social links */}

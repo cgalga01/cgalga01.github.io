@@ -7,8 +7,8 @@ function Home () {
     return(
         <main>
           <div class="intro">
-            <h1>Welcome!</h1>
-            <p>This is my page for fantasy football and sports analytics projects</p>
+            <h1>Chris Galgano</h1>
+            <p>This is my page for fantasy and sports analytics projects</p>
           </div>
 
           <div class="outline">

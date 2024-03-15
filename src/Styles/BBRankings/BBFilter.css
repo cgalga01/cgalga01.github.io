@@ -1,0 +1,19 @@
+
+.filters {
+    width: 95%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+  }
+
+.filters label{
+  padding: 10px;
+  
+}
+
+.filters input{
+  margin-left: 10px;
+
+}

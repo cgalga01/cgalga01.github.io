@@ -1,0 +1,67 @@
+.filtered {
+  width: 95%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.input {
+  width: 10%;
+} 
+
+
+.table {
+    text-align: center;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.table thead tr {
+    font-size: 12px;
+}
+
+
+.table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+  }
+.head{
+  padding: 8px;
+}
+
+.table tr:nth-child(even){
+    background-color: #f2f2f2;
+    }
+
+
+    .bright-red-bg {
+  background-color: #ff0000; /* bright red */
+}
+
+.mild-red-bg {
+  background-color: #ff6666; /* mild red */
+}
+
+.orange-bg {
+  background-color: #ffa500; /* orange */
+}
+
+.yellow-bg {
+  background-color: #ffff00; /* yellow */
+}
+
+.light-green-bg {
+  background-color: #00ff00; /* light green */
+}
+
+.dark-green-bg {
+  background-color: #9ACD32; /* dark green */
+}
+
+.white-bg {
+  background-color: #ffffff; /* default white background */
+}

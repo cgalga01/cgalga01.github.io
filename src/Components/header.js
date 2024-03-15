@@ -9,6 +9,11 @@ function Header() {
         <Link to="/">
           Home
         </Link>
+
+        <Link to='/BBRankings/BB_Rankings'>
+          Fantasy Baseball Rankings
+        </Link>
+
         <Link to="/">
         <div className="dropdown">
           {/* Dropdown menu item with links to fantasy football pages */}

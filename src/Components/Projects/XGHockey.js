@@ -15,7 +15,7 @@ function XGHockey() {
             <div className='all-article'>
                 <p>
                     As a dedicated hockey fan, I've often encountered expected goals statistics.
-                    This prompted me to embark on the journey of building a simple model using
+                    This prompted me to embark on the journey of building my own model using
                     logistic regression.
                 </p>
 

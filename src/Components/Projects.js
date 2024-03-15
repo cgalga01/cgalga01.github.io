@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 //Array of info on my projects
 const articles = [
   {
+    title: 'Hockey xG V2 - xGBoost & Shooting Talent',
+    description: 'Updated and improved xG Model using xGBoost and a shooting talent variable',
+    date: new Date('2024-2-13'),
+    link: '/Projects/XGHockeyST'
+  },
+  {
     title: 'Fantasy Baseball Archetypes',
     description: 'I used k-means clustering to analyze mlb players with similar styles',
     date: new Date('2023-11-10'),
