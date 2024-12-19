@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.5827a19f.css",
-    "main.js": "/static/js/main.a4193fbe.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "static/media/IMG_2103.JPG": "/static/media/IMG_2103.63c08226a24a80d0826a.JPG",
+    "main.css": "/static/css/main.3ba757db.css",
+    "main.js": "/static/js/main.46f4e083.js",
+    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
+    "static/media/IMG_7822.jpg": "/static/media/IMG_7822.4d34e144d377529bf529.jpg",
     "static/media/HitterValues.png": "/static/media/HitterValues.83b1620b76ee870c1cb1.png",
     "static/media/Cluster1.png": "/static/media/Cluster1.f943223f7c1eb4d68ad0.png",
     "static/media/Z-Scores.png": "/static/media/Z-Scores.57cbccd0d96c06d295e3.png",
@@ -29,12 +29,12 @@
     "static/media/TE_ranking.csv": "/static/media/TE_ranking.34bcdb9cfb0f2db5b4a1.csv",
     "static/media/QB_ranking.csv": "/static/media/QB_ranking.c6bc630dc703a9344cbd.csv",
     "index.html": "/index.html",
-    "main.5827a19f.css.map": "/static/css/main.5827a19f.css.map",
-    "main.a4193fbe.js.map": "/static/js/main.a4193fbe.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.3ba757db.css.map": "/static/css/main.3ba757db.css.map",
+    "main.46f4e083.js.map": "/static/js/main.46f4e083.js.map",
+    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5827a19f.css",
-    "static/js/main.a4193fbe.js"
+    "static/css/main.3ba757db.css",
+    "static/js/main.46f4e083.js"
   ]
 }
