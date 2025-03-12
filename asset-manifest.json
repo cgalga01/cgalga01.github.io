@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.17d908cc.css",
-    "main.js": "/static/js/main.c36e756d.js",
+    "main.css": "/static/css/main.57851e5f.css",
+    "main.js": "/static/js/main.d48e6487.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/IMG_7822.jpg": "/static/media/IMG_7822.4d34e144d377529bf529.jpg",
     "static/media/HitterValues.png": "/static/media/HitterValues.83b1620b76ee870c1cb1.png",
@@ -24,18 +24,18 @@
     "static/media/BB_Rankings_points_2025.csv": "/static/media/BB_Rankings_points_2025.6e0a9a4892da6ea2c5b9.csv",
     "static/media/Model.png": "/static/media/Model.f54db864ba1a0125ae99.png",
     "static/media/ppr_rankings_all.csv": "/static/media/ppr_rankings_all.743a8384f19f38b7a513.csv",
-    "static/media/BB_Rankings_2025.csv": "/static/media/BB_Rankings_2025.7de6b051c40e9baf5b05.csv",
+    "static/media/BB_Rankings_2025.csv": "/static/media/BB_Rankings_2025.b6d58efc4bd80c5c986f.csv",
     "static/media/WR_ranking.csv": "/static/media/WR_ranking.99e9f0e6d9dd3031a9be.csv",
     "static/media/RB_ranking.csv": "/static/media/RB_ranking.cbd15158e8a461222c6c.csv",
     "static/media/TE_ranking.csv": "/static/media/TE_ranking.34bcdb9cfb0f2db5b4a1.csv",
     "static/media/QB_ranking.csv": "/static/media/QB_ranking.c6bc630dc703a9344cbd.csv",
     "index.html": "/index.html",
-    "main.17d908cc.css.map": "/static/css/main.17d908cc.css.map",
-    "main.c36e756d.js.map": "/static/js/main.c36e756d.js.map",
+    "main.57851e5f.css.map": "/static/css/main.57851e5f.css.map",
+    "main.d48e6487.js.map": "/static/js/main.d48e6487.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17d908cc.css",
-    "static/js/main.c36e756d.js"
+    "static/css/main.57851e5f.css",
+    "static/js/main.d48e6487.js"
   ]
 }
